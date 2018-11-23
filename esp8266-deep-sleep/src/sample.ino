@@ -1,3 +1,13 @@
+// Esp8266 deep-sleep experiments
+// Originally posted by pvvx on a russian forum and modified by TvE
+// for a blog post series https://blog.voneicken.com/projects/low-power/wifi
+// Uses the esp8266 arduino framework.
+//
+// To run create a wifi.h file with:
+//#define SSID "your ssid"
+//#define PASSWD "your password"
+// Then adjust the server IP address (srvip) and network parameters further down
+
 #include <ESP8266WiFi.h>
 #include <WiFiUdp.h>
 extern "C" {
