@@ -1,0 +1,4 @@
+*/images
+*/.pioenvs
+*/*.log
+*/src/wifi.h
