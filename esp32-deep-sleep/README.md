@@ -1,6 +1,6 @@
-# ESP8266 Deep-sleep with periodic wake-up
+# ESP32 Deep-sleep with periodic wake-up
 
-This sketch tests how long it takes the esp8266 to wake-up from deep sleep,
+This sketch tests how long it takes the esp32 to wake-up from deep sleep,
 connect to wifi, send some data to a server over TCP (or UDP), and go back
 to sleep.
 
